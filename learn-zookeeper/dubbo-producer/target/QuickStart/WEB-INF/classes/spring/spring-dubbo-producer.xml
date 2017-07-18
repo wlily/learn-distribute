@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <!-- 使用Annotation 自动注册bean, 并保证@Required, @Autowired的属性被注入 -->
+    <context:component-scan base-package="com.wll.test.zookeeper.service">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--<context:property-placeholder location="classpath*:config.properties" ignore-unresolvable="true" />-->
+    <dubbo:application name="jim" logger="slf4j"/>
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
+    <dubbo:protocol accesslog="true" name="dubbo" port="20883"/>
+    <dubbo:annotation package="com.wll.test.zookeeper" />
+    <dubbo:service interface="com.wll.test.zookeeper.service.IProduct" ref="productService"/>
+    <!--<import resource="spring-redis-context.xml"/>-->
+
+</beans>

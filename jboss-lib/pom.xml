@@ -8,2547 +8,2550 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 	<name>jbosslib</name>
 	<version>1.0</version>
 	<packaging>pom</packaging>
+	<properties>
+		<jboss-path></jboss-path>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-cli-client</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bin\client\jboss-cli-client.jar</systemPath>
+			<systemPath>${jboss-path}\bin\client\jboss-cli-client.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-client</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bin\client\jboss-client.jar</systemPath>
+			<systemPath>${jboss-path}\bin\client\jboss-client.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-servlet-api_2.5_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\javax\servlet\api\v25\jboss-servlet-api_2.5_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\javax\servlet\api\v25\jboss-servlet-api_2.5_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>org.apache.felix.configadmin-1.2.8.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\org\apache\felix\configadmin\main\org.apache.felix.configadmin-1.2.8.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\org\apache\felix\configadmin\main\org.apache.felix.configadmin-1.2.8.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>org.apache.felix.log-1.0.0.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\org\apache\felix\log\main\org.apache.felix.log-1.0.0.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\org\apache\felix\log\main\org.apache.felix.log-1.0.0.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-configadmin-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\org\jboss\as\osgi\configadmin\main\jboss-as-osgi-configadmin-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\org\jboss\as\osgi\configadmin\main\jboss-as-osgi-configadmin-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-osgi-logging-1.0.0.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\org\jboss\osgi\logging\main\jboss-osgi-logging-1.0.0.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\org\jboss\osgi\logging\main\jboss-osgi-logging-1.0.0.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>stilts-stomplet-server-bundle-0.1.26.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\bundles\system\layers\base\org\projectodd\stilts\main\stilts-stomplet-server-bundle-0.1.26.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\bundles\system\layers\base\org\projectodd\stilts\main\stilts-stomplet-server-bundle-0.1.26.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-modules</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\jboss-modules.jar</systemPath>
+			<systemPath>${jboss-path}\jboss-modules.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>asm-3.3.1.redhat-9</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\asm\asm\main\asm-3.3.1.redhat-9.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\asm\asm\main\asm-3.3.1.redhat-9.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cal10n-api-0.7.7.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\ch\qos\cal10n\main\cal10n-api-0.7.7.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\ch\qos\cal10n\main\cal10n-api-0.7.7.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>relaxngDatatype-2011.1.0.redhat-9</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\github\relaxng\main\relaxngDatatype-2011.1.0.redhat-9.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\github\relaxng\main\relaxngDatatype-2011.1.0.redhat-9.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>guava-13.0.1.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\google\guava\main\guava-13.0.1.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\google\guava\main\guava-13.0.1.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>h2-1.3.168.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\h2database\h2\main\h2-1.3.168.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\h2database\h2\main\h2-1.3.168.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>codemodel-2.6.0.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\codemodel\main\codemodel-2.6.0.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\codemodel\main\codemodel-2.6.0.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>istack-commons-runtime-2.6.1.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\istack\main\istack-commons-runtime-2.6.1.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\istack\main\istack-commons-runtime-2.6.1.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>istack-commons-tools-2.6.1.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\istack\main\istack-commons-tools-2.6.1.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\istack\main\istack-commons-tools-2.6.1.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jsf-impl-1.2.15.b01-redhat-12</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\jsf-impl\1.2\jsf-impl-1.2.15.b01-redhat-12.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\jsf-impl\1.2\jsf-impl-1.2.15.b01-redhat-12.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jsf-impl-2.1.28.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\jsf-impl\main\jsf-impl-2.1.28.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\jsf-impl\main\jsf-impl-2.1.28.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jaxb-impl-2.2.5.redhat-9</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\xml\bind\main\jaxb-impl-2.2.5.redhat-9.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\xml\bind\main\jaxb-impl-2.2.5.redhat-9.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jaxb-xjc-2.2.5.redhat-9</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\xml\bind\main\jaxb-xjc-2.2.5.redhat-9.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\xml\bind\main\jaxb-xjc-2.2.5.redhat-9.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>saaj-impl-1.3.16.SP1-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\xml\messaging\saaj\main\saaj-impl-1.3.16.SP1-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\xml\messaging\saaj\main\saaj-impl-1.3.16.SP1-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>txw2-20110809.0.0.redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\xml\txw2\main\txw2-20110809.0.0.redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\xml\txw2\main\txw2-20110809.0.0.redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xsom-20110809.0.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\com\sun\xsom\main\xsom-20110809.0.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\com\sun\xsom\main\xsom-20110809.0.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>java-getopt-1.0.13.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\gnu\getopt\main\java-getopt-1.0.13.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\gnu\getopt\main\java-getopt-1.0.13.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>activation-1.1.1.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\activation\api\main\activation-1.1.1.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\activation\api\main\activation-1.1.1.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\annotation\api\main\jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\annotation\api\main\jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\ejb\api\main\jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\ejb\api\main\jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-el-api_2.2_spec-1.0.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\el\api\main\jboss-el-api_2.2_spec-1.0.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\el\api\main\jboss-el-api_2.2_spec-1.0.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cdi-api-1.0.0.SP4-redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\enterprise\api\main\cdi-api-1.0.0.SP4-redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\enterprise\api\main\cdi-api-1.0.0.SP4-redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jad-api_1.2_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\enterprise\deploy\api\main\jboss-jad-api_1.2_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\enterprise\deploy\api\main\jboss-jad-api_1.2_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jsf-api-1.2.15.b01-redhat-12</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\faces\api\1.2\jsf-api-1.2.15.b01-redhat-12.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\faces\api\1.2\jsf-api-1.2.15.b01-redhat-12.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jsf-api_2.1_spec-2.1.28.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\faces\api\main\jboss-jsf-api_2.1_spec-2.1.28.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\faces\api\main\jboss-jsf-api_2.1_spec-2.1.28.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>javax.inject-1.0.0.redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\inject\api\main\javax.inject-1.0.0.redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\inject\api\main\javax.inject-1.0.0.redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\interceptor\api\main\jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\interceptor\api\main\jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jms-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\jms\api\main\jboss-jms-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\jms\api\main\jboss-jms-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jsr181-api-1.0.0.MR1-redhat-7</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\jws\api\main\jsr181-api-1.0.0.MR1-redhat-7.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\jws\api\main\jsr181-api-1.0.0.MR1-redhat-7.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>mail-1.4.5.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\mail\api\main\mail-1.4.5.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\mail\api\main\mail-1.4.5.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-j2eemgmt-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\management\j2ee\api\main\jboss-j2eemgmt-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\management\j2ee\api\main\jboss-j2eemgmt-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-jpa-2.0-api-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\persistence\api\main\hibernate-jpa-2.0-api-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\persistence\api\main\hibernate-jpa-2.0-api-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-connector-api_1.6_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\resource\api\main\jboss-connector-api_1.6_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\resource\api\main\jboss-connector-api_1.6_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-rmi-api_1.0_spec-1.0.4.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\rmi\api\main\jboss-rmi-api_1.0_spec-1.0.4.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\rmi\api\main\jboss-rmi-api_1.0_spec-1.0.4.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaspi-api_1.0_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\security\auth\message\api\main\jboss-jaspi-api_1.0_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\security\auth\message\api\main\jboss-jaspi-api_1.0_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jacc-api_1.4_spec-1.0.3.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\security\jacc\api\main\jboss-jacc-api_1.4_spec-1.0.3.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\security\jacc\api\main\jboss-jacc-api_1.4_spec-1.0.3.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\servlet\api\main\jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\servlet\api\main\jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jsp-api_2.2_spec-1.0.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\servlet\jsp\api\main\jboss-jsp-api_2.2_spec-1.0.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\servlet\jsp\api\main\jboss-jsp-api_2.2_spec-1.0.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jstl-api_1.2_spec-1.0.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\servlet\jstl\api\main\jboss-jstl-api_1.2_spec-1.0.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\servlet\jstl\api\main\jboss-jstl-api_1.2_spec-1.0.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\transaction\api\main\jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\transaction\api\main\jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>validation-api-1.0.0.GA-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\validation\api\main\validation-api-1.0.0.GA-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\validation\api\main\validation-api-1.0.0.GA-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\ws\rs\api\main\jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\ws\rs\api\main\jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wsdl4j-1.6.3.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\wsdl4j\api\main\wsdl4j-1.6.3.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\wsdl4j\api\main\wsdl4j-1.6.3.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxb-api_2.2_spec-1.0.4.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\xml\bind\api\main\jboss-jaxb-api_2.2_spec-1.0.4.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\xml\bind\api\main\jboss-jaxb-api_2.2_spec-1.0.4.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxr-api_1.0_spec-1.0.2.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\xml\registry\api\main\jboss-jaxr-api_1.0_spec-1.0.2.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\xml\registry\api\main\jboss-jaxr-api_1.0_spec-1.0.2.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxrpc-api_1.1_spec-1.0.1.Final-redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\xml\rpc\api\main\jboss-jaxrpc-api_1.1_spec-1.0.1.Final-redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\xml\rpc\api\main\jboss-jaxrpc-api_1.1_spec-1.0.1.Final-redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-saaj-api_1.3_spec-1.0.3.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\xml\soap\api\main\jboss-saaj-api_1.3_spec-1.0.3.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\xml\soap\api\main\jboss-saaj-api_1.3_spec-1.0.3.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxws-api_2.2_spec-2.0.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\javax\xml\ws\api\main\jboss-jaxws-api_2.2_spec-2.0.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\javax\xml\ws\api\main\jboss-jaxws-api_2.2_spec-2.0.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jcip-annotations-1.0.0.redhat-7</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\net\jcip\main\jcip-annotations-1.0.0.redhat-7.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\net\jcip\main\jcip-annotations-1.0.0.redhat-7.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xom-1.2.7.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\nu\xom\main\xom-1.2.7.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\nu\xom\main\xom-1.2.7.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>antlr-2.7.7.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\antlr\main\antlr-2.7.7.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\antlr\main\antlr-2.7.7.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-beanutils-1.8.3.redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\beanutils\main\commons-beanutils-1.8.3.redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\beanutils\main\commons-beanutils-1.8.3.redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-cli-1.2.0.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\cli\main\commons-cli-1.2.0.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\cli\main\commons-cli-1.2.0.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-codec-1.4.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\codec\main\commons-codec-1.4.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\codec\main\commons-codec-1.4.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-collections-3.2.1.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\collections\main\commons-collections-3.2.1.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\collections\main\commons-collections-3.2.1.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-configuration-1.6.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\configuration\main\commons-configuration-1.6.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\configuration\main\commons-configuration-1.6.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-io-2.1.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\io\main\commons-io-2.1.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\io\main\commons-io-2.1.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-lang-2.6.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\lang\main\commons-lang-2.6.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\lang\main\commons-lang-2.6.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>commons-pool-1.6.0.redhat-7</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\commons\pool\main\commons-pool-1.6.0.redhat-7.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\commons\pool\main\commons-pool-1.6.0.redhat-7.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-bindings-coloc-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-coloc-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-coloc-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-bindings-object-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-object-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-object-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-bindings-soap-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-soap-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-soap-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-bindings-xml-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-xml-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-bindings-xml-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-core-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-core-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-core-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-databinding-aegis-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-databinding-aegis-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-databinding-aegis-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-databinding-jaxb-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-databinding-jaxb-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-databinding-jaxb-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-frontend-jaxws-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-frontend-jaxws-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-frontend-jaxws-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-frontend-simple-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-frontend-simple-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-frontend-simple-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-management-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-management-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-management-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-transports-http-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-http-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-http-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-transports-jms-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-jms-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-jms-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-transports-local-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-local-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-transports-local-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-ws-addr-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-addr-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-addr-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-ws-mex-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-mex-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-mex-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-ws-policy-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-policy-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-policy-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-ws-rm-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-rm-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-rm-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-rt-ws-security-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-security-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-rt-ws-security-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-services-sts-core-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-services-sts-core-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-services-sts-core-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-services-ws-discovery-api-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-services-ws-discovery-api-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-services-ws-discovery-api-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-common-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-common-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-common-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-java2ws-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-java2ws-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-java2ws-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-validator-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-validator-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-validator-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-wsdlto-core-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-core-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-core-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-wsdlto-databinding-jaxb-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-databinding-jaxb-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-databinding-jaxb-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-tools-wsdlto-frontend-jaxws-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-frontend-jaxws-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-tools-wsdlto-frontend-jaxws-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-xjc-boolean-2.6.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-boolean-2.6.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-boolean-2.6.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-xjc-dv-2.6.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-dv-2.6.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-dv-2.6.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-xjc-ts-2.6.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-ts-2.6.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\impl\main\cxf-xjc-ts-2.6.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>cxf-api-2.7.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\cxf\main\cxf-api-2.7.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\cxf\main\cxf-api-2.7.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>httpclient-4.3.6.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\httpcomponents\main\httpclient-4.3.6.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\httpcomponents\main\httpclient-4.3.6.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>httpcore-4.3.3.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\httpcomponents\main\httpcore-4.3.3.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\httpcomponents\main\httpcore-4.3.3.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>httpmime-4.3.6.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\httpcomponents\main\httpmime-4.3.6.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\httpcomponents\main\httpmime-4.3.6.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>apache-mime4j-0.6.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\james\mime4j\main\apache-mime4j-0.6.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\james\mime4j\main\apache-mime4j-0.6.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>juddi-client-3.1.3.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\juddi\juddi-client\main\juddi-client-3.1.3.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\juddi\juddi-client\main\juddi-client-3.1.3.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>scout-1.2.6.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\juddi\scout\main\scout-1.2.6.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\juddi\scout\main\scout-1.2.6.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>uddi-ws-3.1.3.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\juddi\uddi-ws\main\uddi-ws-3.1.3.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\juddi\uddi-ws\main\uddi-ws-3.1.3.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-analyzers-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-analyzers-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-analyzers-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-core-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-core-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-core-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-facet-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-facet-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-facet-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-phonetic-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-phonetic-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-phonetic-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-smartcn-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-smartcn-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-smartcn-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>lucene-stempel-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\lucene\main\lucene-stempel-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\lucene\main\lucene-stempel-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>neethi-3.0.2.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\neethi\main\neethi-3.0.2.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\neethi\main\neethi-3.0.2.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xmlsec-1.5.7.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\santuario\xmlsec\main\xmlsec-1.5.7.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\santuario\xmlsec\main\xmlsec-1.5.7.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>solr-analysis-extras-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\solr\main\solr-analysis-extras-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\solr\main\solr-analysis-extras-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>solr-core-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\solr\main\solr-core-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\solr\main\solr-core-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>solr-solrj-3.6.2.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\solr\main\solr-solrj-3.6.2.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\solr\main\solr-solrj-3.6.2.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>velocity-1.7.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\velocity\main\velocity-1.7.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\velocity\main\velocity-1.7.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wss4j-1.6.17.SP1-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\ws\security\main\wss4j-1.6.17.SP1-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\ws\security\main\wss4j-1.6.17.SP1-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xmlschema-core-2.0.2.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\ws\xmlschema\main\xmlschema-core-2.0.2.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\ws\xmlschema\main\xmlschema-core-2.0.2.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>serializer-2.7.1.redhat-7</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\xalan\main\serializer-2.7.1.redhat-7.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\xalan\main\serializer-2.7.1.redhat-7.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xalan-2.7.1.redhat-7</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\xalan\main\xalan-2.7.1.redhat-7.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\xalan\main\xalan-2.7.1.redhat-7.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xercesImpl-2.9.1.redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\xerces\main\xercesImpl-2.9.1.redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\xerces\main\xercesImpl-2.9.1.redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xml-resolver-1.2.0.redhat-10</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\apache\xml-resolver\main\xml-resolver-1.2.0.redhat-10.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\apache\xml-resolver\main\xml-resolver-1.2.0.redhat-10.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jackson-core-asl-1.9.9.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\jackson\jackson-core-asl\main\jackson-core-asl-1.9.9.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\jackson\jackson-core-asl\main\jackson-core-asl-1.9.9.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jackson-jaxrs-1.9.9.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\jackson\jackson-jaxrs\main\jackson-jaxrs-1.9.9.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\jackson\jackson-jaxrs\main\jackson-jaxrs-1.9.9.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jackson-mapper-asl-1.9.9.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\jackson\jackson-mapper-asl\main\jackson-mapper-asl-1.9.9.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\jackson\jackson-mapper-asl\main\jackson-mapper-asl-1.9.9.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jackson-xc-1.9.9.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\jackson\jackson-xc\main\jackson-xc-1.9.9.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\jackson\jackson-xc\main\jackson-xc-1.9.9.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jettison-1.3.1.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\jettison\main\jettison-1.3.1.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\jettison\main\jettison-1.3.1.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>stax2-api-3.1.3.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\woodstox\main\stax2-api-3.1.3.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\woodstox\main\stax2-api-3.1.3.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>woodstox-core-asl-4.2.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\codehaus\woodstox\main\woodstox-core-asl-4.2.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\codehaus\woodstox\main\woodstox-core-asl-4.2.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>dom4j-1.6.1.redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\dom4j\main\dom4j-1.6.1.redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\dom4j\main\dom4j-1.6.1.redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jansi-1.9.0.redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\fusesource\jansi\main\jansi-1.9.0.redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\fusesource\jansi\main\jansi-1.9.0.redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-commons-annotations-4.0.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\commons-annotations\main\hibernate-commons-annotations-4.0.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\commons-annotations\main\hibernate-commons-annotations-4.0.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-envers-4.2.18.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\envers\main\hibernate-envers-4.2.18.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\envers\main\hibernate-envers-4.2.18.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-core-4.2.18.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\main\hibernate-core-4.2.18.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\main\hibernate-core-4.2.18.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-entitymanager-4.2.18.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\main\hibernate-entitymanager-4.2.18.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\main\hibernate-entitymanager-4.2.18.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-infinispan-4.2.18.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\main\hibernate-infinispan-4.2.18.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\main\hibernate-infinispan-4.2.18.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>avro-1.7.5.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\search\engine\main\avro-1.7.5.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\search\engine\main\avro-1.7.5.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-search-analyzers-4.6.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\search\engine\main\hibernate-search-analyzers-4.6.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\search\engine\main\hibernate-search-analyzers-4.6.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-search-engine-4.6.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\search\engine\main\hibernate-search-engine-4.6.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\search\engine\main\hibernate-search-engine-4.6.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-search-orm-4.6.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\search\orm\main\hibernate-search-orm-4.6.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\search\orm\main\hibernate-search-orm-4.6.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hibernate-validator-4.3.2.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hibernate\validator\main\hibernate-validator-4.3.2.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hibernate\validator\main\hibernate-validator-4.3.2.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-commons-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-commons-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-commons-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-core-client-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-core-client-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-core-client-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-jms-client-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-jms-client-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-jms-client-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-jms-server-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-jms-server-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-jms-server-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-journal-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-journal-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-journal-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-server-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\main\hornetq-server-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\main\hornetq-server-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>hornetq-ra-2.3.25.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\hornetq\ra\main\hornetq-ra-2.3.25.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\hornetq\ra\main\hornetq-ra-2.3.25.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>infinispan-cachestore-jdbc-5.2.11.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\infinispan\cachestore\jdbc\main\infinispan-cachestore-jdbc-5.2.11.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\infinispan\cachestore\jdbc\main\infinispan-cachestore-jdbc-5.2.11.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>infinispan-cachestore-remote-5.2.11.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\infinispan\cachestore\remote\main\infinispan-cachestore-remote-5.2.11.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\infinispan\cachestore\remote\main\infinispan-cachestore-remote-5.2.11.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>infinispan-client-hotrod-5.2.11.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\infinispan\client\hotrod\main\infinispan-client-hotrod-5.2.11.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\infinispan\client\hotrod\main\infinispan-client-hotrod-5.2.11.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>infinispan-core-5.2.11.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\infinispan\main\infinispan-core-5.2.11.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\infinispan\main\infinispan-core-5.2.11.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jacorb-2.3.2.redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jacorb\main\jacorb-2.3.2.redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jacorb\main\jacorb-2.3.2.redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>javassist-3.18.1.GA-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\javassist\main\javassist-3.18.1.GA-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\javassist\main\javassist-3.18.1.GA-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jaxen-1.1.3.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jaxen\main\jaxen-1.1.3.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jaxen\main\jaxen-1.1.3.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>aesh-0.33.14.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\aesh\main\aesh-0.33.14.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\aesh\main\aesh-0.33.14.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-appclient-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\appclient\main\jboss-as-appclient-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\appclient\main\jboss-as-appclient-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-cli-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\cli\main\jboss-as-cli-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\cli\main\jboss-as-cli-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-api-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\api\main\jboss-as-clustering-api-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\api\main\jboss-as-clustering-api-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-common-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\common\main\jboss-as-clustering-common-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\common\main\jboss-as-clustering-common-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-ejb3-infinispan-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\ejb3\infinispan\main\jboss-as-clustering-ejb3-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\ejb3\infinispan\main\jboss-as-clustering-ejb3-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-impl-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\impl\main\jboss-as-clustering-impl-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\impl\main\jboss-as-clustering-impl-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-infinispan-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\infinispan\main\jboss-as-clustering-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\infinispan\main\jboss-as-clustering-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-jgroups-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\jgroups\main\jboss-as-clustering-jgroups-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\jgroups\main\jboss-as-clustering-jgroups-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-registry-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\registry\main\jboss-as-clustering-registry-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\registry\main\jboss-as-clustering-registry-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-service-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\service\main\jboss-as-clustering-service-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\service\main\jboss-as-clustering-service-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-singleton-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\singleton\main\jboss-as-clustering-singleton-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\singleton\main\jboss-as-clustering-singleton-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-web-infinispan-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\web\infinispan\main\jboss-as-clustering-web-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\web\infinispan\main\jboss-as-clustering-web-infinispan-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-clustering-web-spi-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\clustering\web\spi\main\jboss-as-clustering-web-spi-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\clustering\web\spi\main\jboss-as-clustering-web-spi-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-cmp-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\cmp\main\jboss-as-cmp-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\cmp\main\jboss-as-cmp-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-configadmin-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\configadmin\main\jboss-as-configadmin-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\configadmin\main\jboss-as-configadmin-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-connector-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\connector\main\jboss-as-connector-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\connector\main\jboss-as-connector-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>release-stream-2.5.5.Final-redhat-1-resources</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\console\eap\release-stream-2.5.5.Final-redhat-1-resources.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\console\eap\release-stream-2.5.5.Final-redhat-1-resources.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-controller-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\controller\main\jboss-as-controller-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\controller\main\jboss-as-controller-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-controller-client-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\controller-client\main\jboss-as-controller-client-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\controller-client\main\jboss-as-controller-client-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wildfly-core-security-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\core-security\main\wildfly-core-security-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\core-security\main\wildfly-core-security-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wildfly-core-security-api-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\core-security-api\main\wildfly-core-security-api-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\core-security-api\main\wildfly-core-security-api-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-deployment-repository-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\deployment-repository\main\jboss-as-deployment-repository-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\deployment-repository\main\jboss-as-deployment-repository-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-deployment-scanner-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\deployment-scanner\main\jboss-as-deployment-scanner-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\deployment-scanner\main\jboss-as-deployment-scanner-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-domain-http-interface-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\domain-http-interface\main\jboss-as-domain-http-interface-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\domain-http-interface\main\jboss-as-domain-http-interface-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-domain-management-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\domain-management\main\jboss-as-domain-management-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\domain-management\main\jboss-as-domain-management-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-ee-deployment-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\ee\deployment\main\jboss-as-ee-deployment-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\ee\deployment\main\jboss-as-ee-deployment-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-ee-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\ee\main\jboss-as-ee-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\ee\main\jboss-as-ee-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-ejb3-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\ejb3\main\jboss-as-ejb3-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\ejb3\main\jboss-as-ejb3-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-embedded-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\embedded\main\jboss-as-embedded-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\embedded\main\jboss-as-embedded-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-host-controller-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\host-controller\main\jboss-as-host-controller-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\host-controller\main\jboss-as-host-controller-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jacorb-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jacorb\main\jboss-as-jacorb-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jacorb\main\jboss-as-jacorb-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jaxr-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jaxr\main\jboss-as-jaxr-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jaxr\main\jboss-as-jaxr-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jaxrs-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jaxrs\main\jboss-as-jaxrs-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jaxrs\main\jboss-as-jaxrs-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jdr-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jdr\main\jboss-as-jdr-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jdr\main\jboss-as-jdr-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jmx-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jmx\main\jboss-as-jmx-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jmx\main\jboss-as-jmx-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jpa-hibernate3-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jpa\hibernate\3\jboss-as-jpa-hibernate3-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jpa\hibernate\3\jboss-as-jpa-hibernate3-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jpa-hibernate4-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jpa\hibernate\4\jboss-as-jpa-hibernate4-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jpa\hibernate\4\jboss-as-jpa-hibernate4-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jpa-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jpa\main\jboss-as-jpa-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jpa\main\jboss-as-jpa-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jpa-spi-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jpa\spi\main\jboss-as-jpa-spi-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jpa\spi\main\jboss-as-jpa-spi-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jpa-util-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jpa\util\main\jboss-as-jpa-util-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jpa\util\main\jboss-as-jpa-util-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jsf-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jsf\main\jboss-as-jsf-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jsf\main\jboss-as-jsf-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jsf-injection-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jsf-injection\1.2\jboss-as-jsf-injection-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jsf-injection\1.2\jboss-as-jsf-injection-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jsf-injection-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jsf-injection\main\jboss-as-jsf-injection-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jsf-injection\main\jboss-as-jsf-injection-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-jsr77-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\jsr77\main\jboss-as-jsr77-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\jsr77\main\jboss-as-jsr77-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-logging-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\logging\main\jboss-as-logging-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\logging\main\jboss-as-logging-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-mail-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\mail\main\jboss-as-mail-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\mail\main\jboss-as-mail-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-management-client-content-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\management-client-content\main\jboss-as-management-client-content-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\management-client-content\main\jboss-as-management-client-content-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-messaging-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\messaging\main\jboss-as-messaging-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\messaging\main\jboss-as-messaging-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-modcluster-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\modcluster\main\jboss-as-modcluster-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\modcluster\main\jboss-as-modcluster-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>mod_cluster-container-catalina-1.2.11.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-catalina-1.2.11.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-catalina-1.2.11.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>mod_cluster-container-jbossweb-1.2.11.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-jbossweb-1.2.11.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-jbossweb-1.2.11.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>mod_cluster-container-spi-1.2.11.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-spi-1.2.11.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-container-spi-1.2.11.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>mod_cluster-core-1.2.11.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-core-1.2.11.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\modcluster\main\mod_cluster-core-1.2.11.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-naming-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\naming\main\jboss-as-naming-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\naming\main\jboss-as-naming-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-network-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\network\main\jboss-as-network-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\network\main\jboss-as-network-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-http-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\http\main\jboss-as-osgi-http-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\http\main\jboss-as-osgi-http-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-jmx-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\jmx\main\jboss-as-osgi-jmx-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\jmx\main\jboss-as-osgi-jmx-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-jpa-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\jpa\main\jboss-as-osgi-jpa-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\jpa\main\jboss-as-osgi-jpa-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-jta-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\jta\main\jboss-as-osgi-jta-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\jta\main\jboss-as-osgi-jta-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-service-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\main\jboss-as-osgi-service-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\main\jboss-as-osgi-service-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-naming-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\naming\main\jboss-as-osgi-naming-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\naming\main\jboss-as-osgi-naming-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-osgi-web-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\osgi\web\main\jboss-as-osgi-web-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\osgi\web\main\jboss-as-osgi-web-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wildfly-patching-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\patching\main\wildfly-patching-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\patching\main\wildfly-patching-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-platform-mbean-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\platform-mbean\main\jboss-as-platform-mbean-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\platform-mbean\main\jboss-as-platform-mbean-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-pojo-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\pojo\main\jboss-as-pojo-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\pojo\main\jboss-as-pojo-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-process-controller-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\process-controller\main\jboss-as-process-controller-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\process-controller\main\jboss-as-process-controller-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-protocol-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\protocol\main\jboss-as-protocol-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\protocol\main\jboss-as-protocol-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-remoting-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\remoting\main\jboss-as-remoting-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\remoting\main\jboss-as-remoting-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-sar-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\sar\main\jboss-as-sar-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\sar\main\jboss-as-sar-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-security-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\security\main\jboss-as-security-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\security\main\jboss-as-security-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-security-api-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\security-api\main\jboss-as-security-api-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\security-api\main\jboss-as-security-api-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-server-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\server\main\jboss-as-server-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\server\main\jboss-as-server-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-system-jmx-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\system-jmx\main\jboss-as-system-jmx-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\system-jmx\main\jboss-as-system-jmx-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-threads-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\threads\main\jboss-as-threads-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\threads\main\jboss-as-threads-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-transactions-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\transactions\main\jboss-as-transactions-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\transactions\main\jboss-as-transactions-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-version-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\version\main\jboss-as-version-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\version\main\jboss-as-version-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ecj-4.4.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\web\main\ecj-4.4.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\web\main\ecj-4.4.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-web-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\web\main\jboss-as-web-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\web\main\jboss-as-web-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossweb-7.5.7.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\web\main\jbossweb-7.5.7.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\web\main\jbossweb-7.5.7.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-webservices-server-integration-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\webservices\main\jboss-as-webservices-server-integration-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\webservices\main\jboss-as-webservices-server-integration-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-resources-4.3.4.Final-redhat-1-jboss720</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\webservices\main\jbossws-cxf-resources-4.3.4.Final-redhat-1-jboss720.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\webservices\main\jbossws-cxf-resources-4.3.4.Final-redhat-1-jboss720.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-weld-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\weld\main\jboss-as-weld-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\weld\main\jboss-as-weld-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-as-xts-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\as\xts\main\jboss-as-xts-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\as\xts\main\jboss-as-xts-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-classfilewriter-1.0.3.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\classfilewriter\main\jboss-classfilewriter-1.0.3.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\classfilewriter\main\jboss-classfilewriter-1.0.3.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>httpserver-1.0.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\com\sun\httpserver\main\httpserver-1.0.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\com\sun\httpserver\main\httpserver-1.0.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-common-beans-1.1.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\common-beans\main\jboss-common-beans-1.1.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\common-beans\main\jboss-common-beans-1.1.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-common-core-2.2.17.GA-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\common-core\main\jboss-common-core-2.2.17.GA-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\common-core\main\jboss-common-core-2.2.17.GA-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-dmr-1.2.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\dmr\main\jboss-dmr-1.2.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\dmr\main\jboss-dmr-1.2.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-ejb-client-1.0.30.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ejb-client\main\jboss-ejb-client-1.0.30.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ejb-client\main\jboss-ejb-client-1.0.30.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-ejb3-ext-api-2.1.0.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ejb3\main\jboss-ejb3-ext-api-2.1.0.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ejb3\main\jboss-ejb3-ext-api-2.1.0.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>generic-jms-ra-jar-1.0.7.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\genericjms\main\generic-jms-ra-jar-1.0.7.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\genericjms\main\generic-jms-ra-jar-1.0.7.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-iiop-client-1.0.0.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\iiop-client\main\jboss-iiop-client-1.0.0.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\iiop-client\main\jboss-iiop-client-1.0.0.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-seam-int</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\integration\ext-content\main\bundled\jboss-seam-int.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\integration\ext-content\main\bundled\jboss-seam-int.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-invocation-1.1.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\invocation\main\jboss-invocation-1.1.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\invocation\main\jboss-invocation-1.1.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-common-api-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-common-api-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-common-api-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-common-spi-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-common-spi-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-common-spi-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-core-api-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-core-api-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\api\main\ironjacamar-core-api-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-common-impl-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-common-impl-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-common-impl-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-core-impl-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-core-impl-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-core-impl-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-deployers-common-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-deployers-common-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-deployers-common-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-validator-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-validator-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\impl\main\ironjacamar-validator-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>ironjacamar-jdbc-1.0.31.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ironjacamar\jdbcadapters\main\ironjacamar-jdbc-1.0.31.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ironjacamar\jdbcadapters\main\ironjacamar-jdbc-1.0.31.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jandex-1.2.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\jandex\main\jandex-1.2.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\jandex\main\jandex-1.2.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-jaxb-intros-1.0.2.GA-redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\jaxbintros\main\jboss-jaxb-intros-1.0.2.GA-redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\jaxbintros\main\jboss-jaxb-intros-1.0.2.GA-redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-transaction-spi-7.1.0.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\jboss-transaction-spi\main\jboss-transaction-spi-7.1.0.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\jboss-transaction-spi\main\jboss-transaction-spi-7.1.0.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossjts-integration-4.17.29.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\jts\integration\main\jbossjts-integration-4.17.29.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\jts\integration\main\jbossjts-integration-4.17.29.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossjts-jacorb-4.17.29.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\jts\main\jbossjts-jacorb-4.17.29.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\jts\main\jbossjts-jacorb-4.17.29.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>log4j-jboss-logmanager-1.1.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jul-to-slf4j-stub-1.0.1.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\logging\jul-to-slf4j-stub\main\jul-to-slf4j-stub-1.0.1.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\logging\jul-to-slf4j-stub\main\jul-to-slf4j-stub-1.0.1.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-logging-3.1.4.GA-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\logging\main\jboss-logging-3.1.4.GA-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\logging\main\jboss-logging-3.1.4.GA-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-logmanager-1.5.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\logmanager\main\jboss-logmanager-1.5.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\logmanager\main\jboss-logmanager-1.5.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-marshalling-1.4.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\marshalling\main\jboss-marshalling-1.4.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\marshalling\main\jboss-marshalling-1.4.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-marshalling-river-1.4.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\marshalling\river\main\jboss-marshalling-river-1.4.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\marshalling\river\main\jboss-marshalling-river-1.4.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-metadata-appclient-7.2.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-appclient-7.2.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-appclient-7.2.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-metadata-common-7.2.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-common-7.2.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-common-7.2.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-metadata-ear-7.2.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-ear-7.2.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-ear-7.2.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-metadata-ejb-7.2.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-ejb-7.2.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-ejb-7.2.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-metadata-web-7.2.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-web-7.2.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\metadata\main\jboss-metadata-web-7.2.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-msc-1.1.5.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\msc\main\jboss-msc-1.1.5.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\msc\main\jboss-msc-1.1.5.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>netty-3.6.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\netty\main\netty-3.6.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\netty\main\netty-3.6.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-deployment-1.3.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\deployment\main\jbosgi-deployment-1.3.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\deployment\main\jbosgi-deployment-1.3.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-framework-core-2.1.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\framework\main\jbosgi-framework-core-2.1.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\framework\main\jbosgi-framework-core-2.1.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-metadata-2.2.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\metadata\main\jbosgi-metadata-2.2.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\metadata\main\jbosgi-metadata-2.2.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-repository-api-2.1.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\repository\main\jbosgi-repository-api-2.1.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\repository\main\jbosgi-repository-api-2.1.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-repository-core-2.1.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\repository\main\jbosgi-repository-core-2.1.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\repository\main\jbosgi-repository-core-2.1.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-resolver-api-3.0.1.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\resolver\main\jbosgi-resolver-api-3.0.1.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\resolver\main\jbosgi-resolver-api-3.0.1.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-resolver-felix-3.0.1.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\resolver\main\jbosgi-resolver-felix-3.0.1.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\resolver\main\jbosgi-resolver-felix-3.0.1.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-spi-3.2.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\spi\main\jbosgi-spi-3.2.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\spi\main\jbosgi-spi-3.2.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-vfs-1.2.1.Final-redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\vfs\main\jbosgi-vfs-1.2.1.Final-redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\vfs\main\jbosgi-vfs-1.2.1.Final-redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosgi-vfs30-1.2.1.Final-redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\osgi\vfs\main\jbosgi-vfs30-1.2.1.Final-redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\osgi\vfs\main\jbosgi-vfs30-1.2.1.Final-redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-remote-naming-1.0.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\remote-naming\main\jboss-remote-naming-1.0.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\remote-naming\main\jboss-remote-naming-1.0.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>remoting-jmx-1.1.3.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\remoting-jmx\main\remoting-jmx-1.1.3.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\remoting-jmx\main\remoting-jmx-1.1.3.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-remoting-3.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\remoting3\main\jboss-remoting-3.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\remoting3\main\jboss-remoting-3.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-atom-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-atom-provider\main\resteasy-atom-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-atom-provider\main\resteasy-atom-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-cdi-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-cdi\main\resteasy-cdi-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-cdi\main\resteasy-cdi-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-hibernatevalidator-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-hibernatevalidator-provider\main\resteasy-hibernatevalidator-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-hibernatevalidator-provider\main\resteasy-hibernatevalidator-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-jackson-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jackson-provider\main\resteasy-jackson-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jackson-provider\main\resteasy-jackson-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-jaxb-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxb-provider\main\resteasy-jaxb-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxb-provider\main\resteasy-jaxb-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>async-http-servlet-3.0-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxrs\main\async-http-servlet-3.0-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxrs\main\async-http-servlet-3.0-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-jaxrs-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxrs\main\resteasy-jaxrs-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jaxrs\main\resteasy-jaxrs-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-jettison-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jettison-provider\main\resteasy-jettison-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jettison-provider\main\resteasy-jettison-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-jsapi-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-jsapi\main\resteasy-jsapi-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-jsapi\main\resteasy-jsapi-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-multipart-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-multipart-provider\main\resteasy-multipart-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-multipart-provider\main\resteasy-multipart-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-spring-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-spring\main\bundled\resteasy-spring-jar\resteasy-spring-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-spring\main\bundled\resteasy-spring-jar\resteasy-spring-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>resteasy-yaml-provider-2.3.10.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\resteasy\resteasy-yaml-provider\main\resteasy-yaml-provider-2.3.10.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\resteasy\resteasy-yaml-provider\main\resteasy-yaml-provider-2.3.10.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-sasl-1.0.5.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\sasl\main\jboss-sasl-1.0.5.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\sasl\main\jboss-sasl-1.0.5.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-negotiation-common-2.3.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-common-2.3.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-common-2.3.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-negotiation-extras-2.3.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-extras-2.3.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-extras-2.3.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-negotiation-net-2.3.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-net-2.3.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-net-2.3.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-negotiation-ntlm-2.3.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-ntlm-2.3.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-ntlm-2.3.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-negotiation-spnego-2.3.6.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-spnego-2.3.6.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\negotiation\main\jboss-negotiation-spnego-2.3.6.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossxacml-2.0.8.Final-redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\security\xacml\main\jbossxacml-2.0.8.Final-redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\security\xacml\main\jbossxacml-2.0.8.Final-redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>shrinkwrap-api-1.1.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-api-1.1.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-api-1.1.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>shrinkwrap-impl-base-1.1.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-impl-base-1.1.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-impl-base-1.1.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>shrinkwrap-spi-1.1.2.redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-spi-1.1.2.redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\shrinkwrap\core\main\shrinkwrap-spi-1.1.2.redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>staxmapper-1.1.0.Final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\staxmapper\main\staxmapper-1.1.0.Final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\staxmapper\main\staxmapper-1.1.0.Final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-stdio-1.0.2.GA-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\stdio\main\jboss-stdio-1.0.2.GA-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\stdio\main\jboss-stdio-1.0.2.GA-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-threads-2.1.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\threads\main\jboss-threads-2.1.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\threads\main\jboss-threads-2.1.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jboss-vfs-3.2.9.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\vfs\main\jboss-vfs-3.2.9.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\vfs\main\jboss-vfs-3.2.9.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>weld-api-1.1.0.Final-redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\weld\api\main\weld-api-1.1.0.Final-redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\weld\api\main\weld-api-1.1.0.Final-redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>weld-core-1.1.28.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\weld\core\main\weld-core-1.1.28.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\weld\core\main\weld-core-1.1.28.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>weld-spi-1.1.0.Final-redhat-6</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\weld\spi\main\weld-spi-1.1.0.Final-redhat-6.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\weld\spi\main\weld-spi-1.1.0.Final-redhat-6.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-api-1.0.2.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\api\main\jbossws-api-1.0.2.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\api\main\jbossws-api-1.0.2.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-common-2.3.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\common\main\jbossws-common-2.3.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\common\main\jbossws-common-2.3.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-factories-4.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-factories\main\jbossws-cxf-factories-4.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-factories\main\jbossws-cxf-factories-4.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-server-4.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-server\main\jbossws-cxf-server-4.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-server\main\jbossws-cxf-server-4.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-transports-httpserver-4.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-transports-httpserver\main\jbossws-cxf-transports-httpserver-4.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-transports-httpserver\main\jbossws-cxf-transports-httpserver-4.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-transports-udp-4.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-transports-udp\main\jbossws-cxf-transports-udp-4.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\cxf\jbossws-cxf-transports-udp\main\jbossws-cxf-transports-udp-4.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-cxf-client-4.3.4.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\jaxws-client\main\jbossws-cxf-client-4.3.4.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\jaxws-client\main\jbossws-cxf-client-4.3.4.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jaxws-jboss-httpserver-httpspi-1.0.1.GA-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\jaxws-jboss-httpserver-httpspi\main\jaxws-jboss-httpserver-httpspi-1.0.1.GA-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\jaxws-jboss-httpserver-httpspi\main\jaxws-jboss-httpserver-httpspi-1.0.1.GA-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-native-core-4.2.0.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\native\jbossws-native-core\main\jbossws-native-core-4.2.0.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\native\jbossws-native-core\main\jbossws-native-core-4.2.0.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-native-services-4.2.0.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\native\jbossws-native-services\main\jbossws-native-services-4.2.0.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\native\jbossws-native-services\main\jbossws-native-services-4.2.0.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-spi-2.3.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\spi\main\jbossws-spi-2.3.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\spi\main\jbossws-spi-2.3.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossws-common-tools-1.2.0.Final-redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\ws\tools\common\main\jbossws-common-tools-1.2.0.Final-redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\ws\tools\common\main\jbossws-common-tools-1.2.0.Final-redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossxb-2.0.3.GA-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\xb\main\jbossxb-2.0.3.GA-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\xb\main\jbossxb-2.0.3.GA-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xnio-api-3.0.13.GA-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\xnio\main\xnio-api-3.0.13.GA-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\xnio\main\xnio-api-3.0.13.GA-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xnio-nio-3.0.13.GA-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\xnio\nio\main\xnio-nio-3.0.13.GA-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\xnio\nio\main\xnio-nio-3.0.13.GA-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbosstxbridge-4.17.29.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\xts\main\jbosstxbridge-4.17.29.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\xts\main\jbosstxbridge-4.17.29.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jbossxts-4.17.29.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jboss\xts\main\jbossxts-4.17.29.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jboss\xts\main\jbossxts-4.17.29.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jdom-1.1.3.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jdom\main\jdom-1.1.3.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jdom\main\jdom-1.1.3.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jgroups-3.2.13.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\jgroups\main\jgroups-3.2.13.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\jgroups\main\jgroups-3.2.13.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>joda-time-1.6.2.redhat-5</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\joda\time\main\joda-time-1.6.2.redhat-5.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\joda\time\main\joda-time-1.6.2.redhat-5.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>rngom-201103.0.0.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\kohsuke\rngom\main\rngom-201103.0.0.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\kohsuke\rngom\main\rngom-201103.0.0.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>opensaml-2.5.3.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\opensaml\main\opensaml-2.5.3.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\opensaml\main\opensaml-2.5.3.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>openws-1.4.4.redhat-2</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\opensaml\main\openws-1.4.4.redhat-2.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\opensaml\main\openws-1.4.4.redhat-2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>xmltooling-1.3.4.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\opensaml\main\xmltooling-1.3.4.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\opensaml\main\xmltooling-1.3.4.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>org.osgi.core-4.2.0.redhat-8</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\osgi\core\main\org.osgi.core-4.2.0.redhat-8.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\osgi\core\main\org.osgi.core-4.2.0.redhat-8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>org.osgi.enterprise-4.2.0.redhat-10</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\osgi\enterprise\main\org.osgi.enterprise-4.2.0.redhat-10.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\osgi\enterprise\main\org.osgi.enterprise-4.2.0.redhat-10.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketbox-4.1.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketbox\main\picketbox-4.1.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketbox\main\picketbox-4.1.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketbox-commons-1.0.0.final-redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketbox\main\picketbox-commons-1.0.0.final-redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketbox\main\picketbox-commons-1.0.0.final-redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketbox-infinispan-4.1.1.Final-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketbox\main\picketbox-infinispan-4.1.1.Final-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketbox\main\picketbox-infinispan-4.1.1.Final-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-common-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\common\main\picketlink-common-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\common\main\picketlink-common-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-config-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\config\main\picketlink-config-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\config\main\picketlink-config-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-api-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\core\api\main\picketlink-api-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\core\api\main\picketlink-api-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-impl-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\core\main\picketlink-impl-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\core\main\picketlink-impl-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-jbas7-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\federation\bindings\main\picketlink-jbas7-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\federation\bindings\main\picketlink-jbas7-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-federation-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\federation\main\picketlink-federation-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\federation\main\picketlink-federation-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-idm-api-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\idm\api\main\picketlink-idm-api-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\idm\api\main\picketlink-idm-api-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-idm-impl-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\idm\main\picketlink-idm-impl-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\idm\main\picketlink-idm-impl-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>picketlink-idm-simple-schema-2.5.4.SP4-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\picketlink\idm\schema\main\picketlink-idm-simple-schema-2.5.4.SP4-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\picketlink\idm\schema\main\picketlink-idm-simple-schema-2.5.4.SP4-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>scannotation-1.0.3.redhat-4</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\scannotation\scannotation\main\scannotation-1.0.3.redhat-4.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\scannotation\scannotation\main\scannotation-1.0.3.redhat-4.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>slf4j-ext-1.7.2.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\slf4j\ext\main\slf4j-ext-1.7.2.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\slf4j\ext\main\slf4j-ext-1.7.2.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>slf4j-jboss-logmanager-1.0.3.GA-redhat-1</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\slf4j\impl\main\slf4j-jboss-logmanager-1.0.3.GA-redhat-1.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\slf4j\impl\main\slf4j-jboss-logmanager-1.0.3.GA-redhat-1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>jcl-over-slf4j-1.7.2.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\slf4j\jcl-over-slf4j\main\jcl-over-slf4j-1.7.2.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\slf4j\jcl-over-slf4j\main\jcl-over-slf4j-1.7.2.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>slf4j-api-1.7.2.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\slf4j\main\slf4j-api-1.7.2.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\slf4j\main\slf4j-api-1.7.2.redhat-3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>wildfly-picketlink-7.5.0.Final-redhat-21</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\wildfly\extension\picketlink\main\wildfly-picketlink-7.5.0.Final-redhat-21.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\wildfly\extension\picketlink\main\wildfly-picketlink-7.5.0.Final-redhat-21.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.wll.test</groupId>
 			<artifactId>snakeyaml-1.8.0.redhat-3</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>D:\2-jboss-eap-6.4\modules\system\layers\base\org\yaml\snakeyaml\main\snakeyaml-1.8.0.redhat-3.jar</systemPath>
+			<systemPath>${jboss-path}\modules\system\layers\base\org\yaml\snakeyaml\main\snakeyaml-1.8.0.redhat-3.jar</systemPath>
 		</dependency>
 	</dependencies>
 </project>
