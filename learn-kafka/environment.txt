@@ -1,0 +1,47 @@
+#########kafka使用之前先确保zookeerper已经安装，配置好，并已启动#########
+
+下载最新kafka版本，https://mirrors.tuna.tsinghua.edu.cn/apache/kafka/， 解压
+在解压目录/config目录下，配置kafka配置文件,server.properties
+broker.id=1 
+port=19092
+log.dirs=/home/wll/kafka/logs1
+host.name=127.0.0.1
+num.partitions=2
+zookeeper.connect=localhost:2181/kafka,localhost/kafka,localhost/kafka
+
+配置多个kafka实例（伪集群)
+在/config目录下，拷贝三个server.properties, 分别是server1.properties， server2.properties， server3.properties
+三个server.properties中配置各自的broker.id port log.dirs
+broker.id=1 
+port=19092
+log.dirs=/home/wll/kafka/logs1
+
+broker.id=2 
+port=29092
+log.dirs=/home/wll/kafka/logs2
+
+broker.id=3 
+port=39092
+log.dirs=/home/wll/kafka/logs3
+
+启动多个kafka实例
+bin/kafka-server-start.sh  config/server1.properties &
+bin/kafka-server-start.sh  config/server2.properties &
+bin/kafka-server-start.sh  config/server3.properties &
+
+zookeeper中可以看到三个kafka brokers
+ls /kafka,localhost:2182/kafka,localhost:2183/kafka/brokers/ids
+[1,2,3]
+
+关闭kafka
+bin/kafka-server-stop.sh
+
+创建一个topic
+bin/kafka-topics.sh --create --zookeeper localhost:2181/kafka,localhost:2182/kafka,localhost:2183/kafka --partitions 2 --topic test-topic --replication-factor 1
+
+查看创建的topic
+bin/kafka-topics.sh --describe --zookeeper localhost:2181/kafka,localhost:2182/kafka,localhost:2183/kafka
+
+查看集群情况：
+bin/kafka-topics.sh --describe --zookeeper localhost:2181/kafka,localhost:2182/kafka,localhost:2183/kafka --topic test-topic
+
