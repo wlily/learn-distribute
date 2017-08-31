@@ -1,0 +1,3368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- www.zte.com.cn -->
+<TABLELIST NodeBVersion="NR8000V2.04.01.10" NodeBType="1">
+	<DBTABLE name="R_RACK">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucRackType" value="1"/>
+			<FIELD name="acRackName" value="ztemw"/>
+			<FIELD name="dwTankNo" value="0"/>
+			<FIELD name="dwReserved" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SHELF">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucShelfType" value="4"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_BOARD">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="wBoardType" value="12529"/>
+			<FIELD name="ucMode" value="0"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="dwFuncSet" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="ucMode" value="1"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="dwFuncSet" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="11"/>
+			<FIELD name="wBoardType" value="14339"/>
+			<FIELD name="ucMode" value="1"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="dwFuncSet" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="4"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="wBoardType" value="37361"/>
+			<FIELD name="ucMode" value="1"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="dwFuncSet" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="9"/>
+			<FIELD name="wBoardType" value="14083"/>
+			<FIELD name="ucMode" value="0"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="dwFuncSet" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="6"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_BESPA">
+		<DBRECORD>
+			<FIELD name="ucBESId" value="1"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="9"/>
+			<FIELD name="wBESType" value="12"/>
+			<FIELD name="dwBESMax" value="600"/>
+			<FIELD name="dwBESMin" value="400"/>
+			<FIELD name="dwBESMaxResume" value="600"/>
+			<FIELD name="dwBESMinResume" value="400"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucBESId" value="2"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="10"/>
+			<FIELD name="wBESType" value="12"/>
+			<FIELD name="dwBESMax" value="600"/>
+			<FIELD name="dwBESMin" value="400"/>
+			<FIELD name="dwBESMaxResume" value="600"/>
+			<FIELD name="dwBESMinResume" value="400"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_CLOCK">
+		<DBRECORD>
+			<FIELD name="ucClockID" value="6"/>
+			<FIELD name="ucPRI" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_DRYCT" />
+	<DBTABLE name="R_SYSTEM">
+		<DBRECORD>
+			<FIELD name="ucSystemIndex" value="1"/>
+			<FIELD name="dwSdrID" value="0"/>
+			<FIELD name="acSdrName" value=""/>
+			<FIELD name="wSdrType" value="1"/>
+			<FIELD name="dwRadioMode" value="0"/>
+			<FIELD name="ucNtlType" value="1"/>
+			<FIELD name="wTranMedium" value="1"/>
+			<FIELD name="dwLongitude" value="0"/>
+			<FIELD name="dwLatitude" value="0"/>
+			<FIELD name="dwCycleNetFlg" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SNTP">
+		<DBRECORD>
+			<FIELD name="ucSntpIndex" value="1"/>
+			<FIELD name="aucNtpSrvIpAddr" value="0,0,0,0"/>
+			<FIELD name="aucNtpSrvMask" value="0,0,0,0"/>
+			<FIELD name="wSntpSynPrd" value="24"/>
+			<FIELD name="ucTimeZone" value="0"/>
+			<FIELD name="ucNeedSummerTimerFlag" value="1"/>
+			<FIELD name="ucTimeOffset" value="12"/>
+			<FIELD name="dwSummTimeStart" value="10386120"/>
+			<FIELD name="dwSummTimeEnd" value="10472520"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_FEPARA" />
+	<DBTABLE name="R_E1T1" />
+	<DBTABLE name="R_FILTERRULE" />
+	<DBTABLE name="R_SYSLCNS" />
+	<DBTABLE name="R_TULCNS" />
+	<DBTABLE name="R_MWPMPCFG">
+		<DBRECORD>
+			<FIELD name="dwMeID" value="1"/>
+			<FIELD name="acFtpServer" value="108.28.170.56"/>
+			<FIELD name="acUserName" value="mwPM"/>
+			<FIELD name="acUserPassword" value="AF50F27483B63D08"/>
+			<FIELD name="acFilePath" value="NR8120"/>
+			<FIELD name="dwCollectionCyc" value="15"/>
+			<FIELD name="dwReportCyc" value="15"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="21"/>
+			<FIELD name="ucDisperseTime" value="6"/>
+			<FIELD name="ucRetryStopTime" value="8"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWPMPTASK" />
+	<DBTABLE name="R_DEVICE">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="1"/>
+			<FIELD name="dwSdrID" value="2"/>
+			<FIELD name="acSiteID" value=""/>
+			<FIELD name="achSdrName" value="8120-156"/>
+			<FIELD name="acRadioModel" value="NR8120"/>
+			<FIELD name="acIpAddr" value="108,28,170,156"/>
+			<FIELD name="acNetMask" value="255,255,255,0"/>
+			<FIELD name="acDefaultGw" value="108,28,170,1"/>
+			<FIELD name="acMibVersion" value="8120V2.04.01.08"/>
+			<FIELD name="ucHealth" value="0"/>
+			<FIELD name="dwCfgChangeFlg" value="0"/>
+			<FIELD name="aucMacAddr" value="132,116,42,160,30,231"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWFAN">
+		<DBRECORD>
+			<FIELD name="ucFanIndex" value="1"/>
+			<FIELD name="ucCtrlMode" value="0"/>
+			<FIELD name="ucSpeedStep" value="4"/>
+			<FIELD name="dwPWM" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWBESPA">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="ucSensorID" value="1"/>
+			<FIELD name="ucSensorType" value="1"/>
+			<FIELD name="wHighThreshold" value="80"/>
+			<FIELD name="wLowThreshold" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="16"/>
+			<FIELD name="ucSensorID" value="1"/>
+			<FIELD name="ucSensorType" value="1"/>
+			<FIELD name="wHighThreshold" value="80"/>
+			<FIELD name="wLowThreshold" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SROUTE" />
+	<DBTABLE name="R_RFCINFO">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="1"/>
+			<FIELD name="acSysContact" value="XXX"/>
+			<FIELD name="acSysName" value="XXX"/>
+			<FIELD name="acSysLocation" value="XXX"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_USERS">
+		<DBRECORD>
+			<FIELD name="acUserName" value="admin"/>
+			<FIELD name="acPassword" value="21232f297a57a5a743894a0e4a801fc3"/>
+			<FIELD name="ucPermissionlevel" value="0"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SNMPMGRIP" />
+	<DBTABLE name="R_SNMPTRAPIP">
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,31"/>
+			<FIELD name="acSnmpTrapName" value="zhangbin"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,156"/>
+			<FIELD name="acSnmpTrapName" value="dongyue"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,173"/>
+			<FIELD name="acSnmpTrapName" value="zhangwei"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,223"/>
+			<FIELD name="acSnmpTrapName" value="wll"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,224"/>
+			<FIELD name="acSnmpTrapName" value="EMSServer6"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,88"/>
+			<FIELD name="acSnmpTrapName" value="test"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,55"/>
+			<FIELD name="acSnmpTrapName" value="cui"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,56"/>
+			<FIELD name="acSnmpTrapName" value="chenjr"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,51"/>
+			<FIELD name="acSnmpTrapName" value="zxc012"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="aucSnmpTrapIpAddr" value="108,28,170,111"/>
+			<FIELD name="acSnmpTrapName" value="temp1"/>
+			<FIELD name="ucSnmpTrapIpEnable" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SNMPCFG">
+		<DBRECORD>
+			<FIELD name="ucSnmpManagerAllEnable" value="0"/>
+			<FIELD name="ucSnmpTrapAllEnable" value="1"/>
+			<FIELD name="ucSnmpCommunityAuthEnable" value="1"/>
+			<FIELD name="acSnmpGetCommunity" value="public"/>
+			<FIELD name="acSnmpSetCommunity" value="private"/>
+			<FIELD name="acSnmpTrapCommunity" value="public"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWSNTP">
+		<DBRECORD>
+			<FIELD name="ucSntpServerIndex" value="1"/>
+			<FIELD name="acSntpServerIP" value="108,28,170,51"/>
+			<FIELD name="dwTime" value="24"/>
+			<FIELD name="dwTimeOut" value="6"/>
+			<FIELD name="ucMode" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucTimeZone" value="253"/>
+			<FIELD name="ucCity" value="0"/>
+			<FIELD name="dwResv1" value="30"/>
+			<FIELD name="wTimezoneOffset" value="65326"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWPMPVLAN">
+		<DBRECORD>
+			<FIELD name="dwVLANID" value="20"/>
+			<FIELD name="dwPortNo" value="83952896"/>
+			<FIELD name="dwStatus" value="0"/>
+			<FIELD name="dwResv1" value="1598768453"/>
+			<FIELD name="dwResv2" value="1348419916"/>
+			<FIELD name="dwVLANIDEnd" value="20"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_RADIOKPI">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="5"/>
+			<FIELD name="ucRSLHighThreshold" value="0"/>
+			<FIELD name="ucRSLLowThreshold" value="0"/>
+			<FIELD name="ucRadioSdThreshHold" value="0"/>
+			<FIELD name="ucRadioExcThreshHold" value="0"/>
+			<FIELD name="ucXPDThrd" value="35"/>
+			<FIELD name="dwRSLHighThreshold" value="250"/>
+			<FIELD name="dwRSLLowThreshold" value="600"/>
+			<FIELD name="dwRLT1" value="350"/>
+			<FIELD name="dwRLT2" value="600"/>
+			<FIELD name="dwTLT" value="1250"/>
+			<FIELD name="dwRFUseRateHighThreshold" value="80"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MWCONFIG" />
+	<DBTABLE name="R_TRAFFUNIT">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="0"/>
+			<FIELD name="ucMainSlotNo" value="1"/>
+			<FIELD name="ucStandbySlotNo" value="255"/>
+			<FIELD name="ucFunction" value="0"/>
+			<FIELD name="wBoardType" value="12529"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="3"/>
+			<FIELD name="ucMainSlotNo" value="3"/>
+			<FIELD name="ucStandbySlotNo" value="255"/>
+			<FIELD name="ucFunction" value="0"/>
+			<FIELD name="wBoardType" value="37361"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucMainSlotNo" value="5"/>
+			<FIELD name="ucStandbySlotNo" value="255"/>
+			<FIELD name="ucFunction" value="0"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_WORKMODE">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucCapacity" value="1"/>
+			<FIELD name="ucBandwidth" value="1"/>
+			<FIELD name="ucModulation" value="0"/>
+			<FIELD name="dwSyncToRemoteFlag" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="ucCodingType" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PROTPARAM">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucProtType" value="0"/>
+			<FIELD name="ucProtMode" value="2"/>
+			<FIELD name="ucIFRxPath" value="0"/>
+			<FIELD name="ucRFTxPath" value="0"/>
+			<FIELD name="ucProtGrade" value="0"/>
+			<FIELD name="dwWTR" value="300"/>
+			<FIELD name="dwMwLinkID" value="5"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ACMPARAM">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucAcmEnable" value="1"/>
+			<FIELD name="ucStartModulation" value="0"/>
+			<FIELD name="ucEndModulation" value="1"/>
+			<FIELD name="wProfileMask" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="ucStartCodingType" value="0"/>
+			<FIELD name="ucEndCodingType" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ATPCPARAM">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucAtpcEnable" value="1"/>
+			<FIELD name="cStepOfAtpc" value="1"/>
+			<FIELD name="cLowThresholdOfAtpc" value="186"/>
+			<FIELD name="cHighThresholdOfAtpc" value="226"/>
+			<FIELD name="cMinTxPower" value="246"/>
+			<FIELD name="cMaxTxPower" value="40"/>
+			<FIELD name="ucAtpcModel" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_RFPARAM">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucMasterSlotNo" value="5"/>
+			<FIELD name="wMasterTxPower" value="200"/>
+			<FIELD name="cMasterRSLHighThreshold" value="0"/>
+			<FIELD name="cMasterRSLLowThreshold" value="0"/>
+			<FIELD name="dwMasterTxFreq" value="7124500"/>
+			<FIELD name="dwMasterRxFreq" value="7285500"/>
+			<FIELD name="ucSlaverSlotNo" value="255"/>
+			<FIELD name="wSlaverTxPower" value="0"/>
+			<FIELD name="cSlaverRSLHighThreshold" value="0"/>
+			<FIELD name="cSlaverRSLLowThreshold" value="0"/>
+			<FIELD name="dwSlaverTxFreq" value="0"/>
+			<FIELD name="dwSlaverRxFreq" value="0"/>
+			<FIELD name="dwSyncToRemoteFlag" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_XPICPARAM" />
+	<DBTABLE name="R_TRAFFDSC">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="aucTrafficUnitDsc" value="MSC to BULUNGU"/>
+			<FIELD name="aucLinkId" value=""/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ANTENNA" />
+	<DBTABLE name="R_ProtoIF">
+		<DBRECORD>
+			<FIELD name="dwIF" value="83952896"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729601"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729602"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729603"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729604"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="67174401"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EfmGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucLoopbackSupport" value="0"/>
+			<FIELD name="uclbTimeout" value="1"/>
+			<FIELD name="ucLinkMonitor" value="0"/>
+			<FIELD name="ucMibRetrieval" value="0"/>
+			<FIELD name="achOUI" value="ZTE"/>
+			<FIELD name="ucSpecOgr" value="0"/>
+			<FIELD name="dwVenderSpecInfo" value="1"/>
+			<FIELD name="ucUnidirection" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EfmIF" />
+	<DBTABLE name="R_CfmGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucVersion" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_CfmMD" />
+	<DBTABLE name="R_CfmMA" />
+	<DBTABLE name="R_CfmMP" />
+	<DBTABLE name="R_8032Global">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucRPLRole" value="0"/>
+			<FIELD name="ucRPLPort" value="1"/>
+			<FIELD name="wRAPSChVID" value="1"/>
+			<FIELD name="wHoldOffTimer" value="0"/>
+			<FIELD name="ucWTRTimer" value="5"/>
+			<FIELD name="wGuardTimer" value="500"/>
+			<FIELD name="dwWestPortNo" value="0"/>
+			<FIELD name="dwEastPortNo" value="0"/>
+			<FIELD name="ucRingMel" value="7"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MstpGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucForceVersion" value="3"/>
+			<FIELD name="ucHelloTime" value="2"/>
+			<FIELD name="ucMaxAge" value="20"/>
+			<FIELD name="ucForwardDelay" value="15"/>
+			<FIELD name="ucMaxHops" value="20"/>
+			<FIELD name="achMstName" value=""/>
+			<FIELD name="achCisHMD5Key" value=""/>
+			<FIELD name="achCisHMD5Digest" value=""/>
+			<FIELD name="achHWHMD5Key" value=""/>
+			<FIELD name="achHWHMD5Digest" value=""/>
+			<FIELD name="wMstpRevision" value="0"/>
+			<FIELD name="wFactor" value="2"/>
+			<FIELD name="wTxHoldCount" value="10"/>
+			<FIELD name="ucWorkMode" value="0"/>
+			<FIELD name="wDiameter" value="0"/>
+			<FIELD name="aucBpduTunnelDMac" value="1,15,226,0,0,3"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MstpIns">
+		<DBRECORD>
+			<FIELD name="ucInstanceID" value="0"/>
+			<FIELD name="wPriority" value="32768"/>
+			<FIELD name="aucVlanMap" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MstpPort">
+		<DBRECORD>
+			<FIELD name="dwIF" value="83952896"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="0"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729601"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="0"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729602"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="0"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729603"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="0"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729604"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="0"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="67174401"/>
+			<FIELD name="ucIfEnable" value="1"/>
+			<FIELD name="ucEdgePort" value="1"/>
+			<FIELD name="ucBpduGuard" value="0"/>
+			<FIELD name="ucLinkType" value="2"/>
+			<FIELD name="ucPacketType" value="0"/>
+			<FIELD name="ucBpduTunnelEnable" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_OspfIns">
+		<DBRECORD>
+			<FIELD name="dwInstanceID" value="1"/>
+			<FIELD name="dwRouteID" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="dwSpfTimer" value="2"/>
+			<FIELD name="dwLsaTimer" value="2"/>
+			<FIELD name="dwDefaultMatric" value="20"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_OspfArea" />
+	<DBTABLE name="R_OspfIF" />
+	<DBTABLE name="R_OspfStub" />
+	<DBTABLE name="R_OspfNssa" />
+	<DBTABLE name="R_OspfVirCon" />
+	<DBTABLE name="R_LldpGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="wTxIntv" value="30"/>
+			<FIELD name="wTxDelay" value="2"/>
+			<FIELD name="ucTxHoldMultiplier" value="4"/>
+			<FIELD name="ucRestartDelay" value="2"/>
+			<FIELD name="ucTrapEnable" value="0"/>
+			<FIELD name="wTrapIntv" value="5"/>
+			<FIELD name="ucFastTxCount" value="3"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_LldpIF">
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729601"/>
+			<FIELD name="uclfEnable" value="1"/>
+			<FIELD name="ucAdminStatus" value="4"/>
+			<FIELD name="ucIfPktEncapType" value="0"/>
+			<FIELD name="ucIfDot1TLVEnable" value="0"/>
+			<FIELD name="ucIfDot3TLVEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729602"/>
+			<FIELD name="uclfEnable" value="1"/>
+			<FIELD name="ucAdminStatus" value="4"/>
+			<FIELD name="ucIfPktEncapType" value="0"/>
+			<FIELD name="ucIfDot1TLVEnable" value="0"/>
+			<FIELD name="ucIfDot3TLVEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729603"/>
+			<FIELD name="uclfEnable" value="1"/>
+			<FIELD name="ucAdminStatus" value="4"/>
+			<FIELD name="ucIfPktEncapType" value="0"/>
+			<FIELD name="ucIfDot1TLVEnable" value="0"/>
+			<FIELD name="ucIfDot3TLVEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="100729604"/>
+			<FIELD name="uclfEnable" value="1"/>
+			<FIELD name="ucAdminStatus" value="4"/>
+			<FIELD name="ucIfPktEncapType" value="0"/>
+			<FIELD name="ucIfDot1TLVEnable" value="0"/>
+			<FIELD name="ucIfDot3TLVEnable" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIF" value="67174401"/>
+			<FIELD name="uclfEnable" value="1"/>
+			<FIELD name="ucAdminStatus" value="4"/>
+			<FIELD name="ucIfPktEncapType" value="0"/>
+			<FIELD name="ucIfDot1TLVEnable" value="0"/>
+			<FIELD name="ucIfDot3TLVEnable" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_LacpGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucFastPerTime" value="1"/>
+			<FIELD name="ucSlowPerTime" value="30"/>
+			<FIELD name="ucShortTimeOut" value="3"/>
+			<FIELD name="ucLongTimeOut" value="90"/>
+			<FIELD name="ucAggDelay" value="2"/>
+			<FIELD name="ucTimeoutMode" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_LacpPort" />
+	<DBTABLE name="R_LacpSG" />
+	<DBTABLE name="R_ACRPolicy" />
+	<DBTABLE name="R_ACLPolicy" />
+	<DBTABLE name="R_PktAge">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucPackAgeEnable" value="0"/>
+			<FIELD name="dwQueue1Time" value="125"/>
+			<FIELD name="dwQueue2Time" value="125"/>
+			<FIELD name="dwQueue3Time" value="125"/>
+			<FIELD name="dwQueue4Time" value="125"/>
+			<FIELD name="dwQueue5Time" value="125"/>
+			<FIELD name="dwQueue6Time" value="125"/>
+			<FIELD name="dwQueue7Time" value="125"/>
+			<FIELD name="dwQueue8Time" value="125"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MacVlan" />
+	<DBTABLE name="R_VlanGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="aucVlanBitmap" value="254,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,127"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MstpPortGd" />
+	<DBTABLE name="R_MstpPortIn" />
+	<DBTABLE name="R_OspfAreaR" />
+	<DBTABLE name="R_TraffPort">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucIsolate" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PortMirr" />
+	<DBTABLE name="R_LogicIso" />
+	<DBTABLE name="R_EtmPort">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="achPortDesc" value=""/>
+			<FIELD name="dwMacLimit" value="0"/>
+			<FIELD name="wL2Mtu" value="9600"/>
+			<FIELD name="ucIsCurrPort" value="0"/>
+			<FIELD name="ucMacAlarmPercent" value="80"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EtmGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="dwMacAgeTime" value="300"/>
+			<FIELD name="dwMgrVlanid" value="1"/>
+			<FIELD name="ucDisStrgy" value="0"/>
+			<FIELD name="ucMacLearn" value="0"/>
+			<FIELD name="ucOverFlow" value="0"/>
+			<FIELD name="ucCtrlMask" value="0"/>
+			<FIELD name="ucL2LearnMode" value="2"/>
+			<FIELD name="ucThreshFlag" value="3"/>
+			<FIELD name="wCellLimit" value="4000"/>
+			<FIELD name="wPktLimit" value="144"/>
+			<FIELD name="ucVlanPri" value="7"/>
+			<FIELD name="ucDscp" value="63"/>
+			<FIELD name="ucInFilRuleEn" value="0"/>
+			<FIELD name="ucStationMoveMode" value="0"/>
+			<FIELD name="dwL1L2RateMode" value="0"/>
+			<FIELD name="dwEgressModifyPriType" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_StcMacSVL" />
+	<DBTABLE name="R_StcMacIVL" />
+	<DBTABLE name="R_L2Frame">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="aucPolicy" value="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1"/>
+			<FIELD name="aucProtoEn" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_InNMBW">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucBandWidth" value="6"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PlaPort" />
+	<DBTABLE name="R_QEMPolicy">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucQESch" value="1"/>
+			<FIELD name="aucQEWeight" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="ucSpQEStart" value="0"/>
+			<FIELD name="ucSpQEEnd" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_CMPolicy">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="aucQERDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEYDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQEGDropValue" value="100,100,100,100,100,100,100,100"/>
+			<FIELD name="aucQERDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropRate" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQERDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEYDropSlop" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucQEGDropSlop" value="0,0,0,0,0,0,0,0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_FRLimit">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="1"/>
+			<FIELD name="dwStage" value="2"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="0"/>
+			<FIELD name="dwStage" value="0"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="0"/>
+			<FIELD name="dwStage" value="0"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="0"/>
+			<FIELD name="dwStage" value="0"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="0"/>
+			<FIELD name="dwStage" value="0"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucEgressEnable" value="0"/>
+			<FIELD name="ucEgressFunc" value="0"/>
+			<FIELD name="dwPortMinRate" value="64"/>
+			<FIELD name="dwPortBurstSize" value="4"/>
+			<FIELD name="adwQue1ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue2ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue3ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue4ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue5ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue6ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue7ShapeRate" value="64,64,0"/>
+			<FIELD name="adwQue8ShapeRate" value="2048,2048,0"/>
+			<FIELD name="ucIngressEnable" value="0"/>
+			<FIELD name="ucCtrlType" value="0"/>
+			<FIELD name="dwCtrlRate" value="64"/>
+			<FIELD name="dwInMinRate" value="64"/>
+			<FIELD name="dwInBurstSize" value="64"/>
+			<FIELD name="ucFlowCtrl" value="0"/>
+			<FIELD name="dwStage" value="0"/>
+			<FIELD name="ucRelease" value="0"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PortPrio">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucModeSelect" value="0"/>
+			<FIELD name="aucPrioQue" value="0,1,2,3,4,5,6,7,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,3,0,3,0,3,0,3,0,4,0,4,0,4,0,4,0,5,0,0,0,0,0,5,0,6,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0"/>
+			<FIELD name="aucPrioColor" value="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021pCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021pCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021pCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021pCfi1" value="1,1,1,1,1,1,1,1"/>
+			<FIELD name="aucQue8021adCfi0" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucQue8021adCfi1" value="0,1,2,3,4,5,6,7"/>
+			<FIELD name="aucColor8021adCfi0" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucColor8021adCfi1" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucDeiOutFlag" value="0"/>
+			<FIELD name="ucPriorityOutFlag" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_VlanCfg">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="dwOptionID" value="74"/>
+			<FIELD name="ucPortType" value="2"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="614"/>
+			<FIELD name="ucDefaultPriority" value="1"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="1"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="dwOptionID" value="131137"/>
+			<FIELD name="ucPortType" value="2"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="1"/>
+			<FIELD name="ucDefaultPriority" value="7"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="1"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="dwOptionID" value="10"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="614"/>
+			<FIELD name="ucDefaultPriority" value="7"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="0"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="dwOptionID" value="10"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="614"/>
+			<FIELD name="ucDefaultPriority" value="7"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="0"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="dwOptionID" value="10"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="614"/>
+			<FIELD name="ucDefaultPriority" value="7"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="0"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="dwOptionID" value="0"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="wOuterPvid" value="1"/>
+			<FIELD name="wInnerPvid" value="1"/>
+			<FIELD name="ucDefaultPriority" value="7"/>
+			<FIELD name="ucMacVlanEnable" value="0"/>
+			<FIELD name="ucUseInnerPrio" value="0"/>
+			<FIELD name="aucVlanID" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrVlanTagMask" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucInActiveVlanID" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucIngressFilter" value="0"/>
+			<FIELD name="ucInDiscardSel" value="2"/>
+			<FIELD name="dwTpid" value="33024"/>
+			<FIELD name="ucCtoSNum" value="0"/>
+			<FIELD name="awCVlanMin" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awCVlanMax" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awSVlanID" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSVlanPriority" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucIngressCVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="dwProtocalIndex" value="0"/>
+			<FIELD name="aucInVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgVlanTrans" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucStoCNum" value="0"/>
+			<FIELD name="awEgressSVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="awEgressCVlanId" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgrSVlanPrio" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucEgressPvidFilter" value="0"/>
+			<FIELD name="aucUntagEnable" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucEgressSVlanActiveFlg" value="0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucMarkVlanTagPrio" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ProtoVlan" />
+	<DBTABLE name="R_InTransAct" />
+	<DBTABLE name="R_EgTransAct" />
+	<DBTABLE name="R_InTransRu" />
+	<DBTABLE name="R_EgTransRu" />
+	<DBTABLE name="R_RouteIndex">
+		<DBRECORD>
+			<FIELD name="dwIndex" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="2"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="4"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="5"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="6"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="7"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="8"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="9"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="10"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="11"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="12"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="13"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="14"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="15"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="16"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_P2PRoute" />
+	<DBTABLE name="R_SNCPRoute" />
+	<DBTABLE name="R_TUDivRoute" />
+	<DBTABLE name="R_MUDivRoute" />
+	<DBTABLE name="R_OpPortMode" />
+	<DBTABLE name="R_ElPortMode">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="1"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="255"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67175169"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="0"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="0"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67175170"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="0"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="0"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67175171"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="0"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="0"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67175172"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="0"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="0"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucDuplexMode" value="1"/>
+			<FIELD name="ucSetMode" value="0"/>
+			<FIELD name="ucSpeed" value="3"/>
+			<FIELD name="ucSelete" value="255"/>
+			<FIELD name="achPortDesc" value=""/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MacLearn">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729601"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729602"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729603"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="100729604"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="67174401"/>
+			<FIELD name="ucAtuoMacLearnEn" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_RTUPortRes" />
+	<DBTABLE name="R_RMUPortRes" />
+	<DBTABLE name="R_FHComp">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucHcEnable" value="0"/>
+			<FIELD name="ucL2HcEnable" value="0"/>
+			<FIELD name="ucMplsHcEnable" value="0"/>
+			<FIELD name="ucIpv4HcEnable" value="0"/>
+			<FIELD name="ucIpv6HcEnable" value="0"/>
+			<FIELD name="ucHcModel" value="1"/>
+			<FIELD name="ucDynTarget" value="90"/>
+			<FIELD name="dwFixThresh" value="1024"/>
+			<FIELD name="ucPriorityQueue" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_Port">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="68608"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="805371904"/>
+			<FIELD name="ucPortType" value="12"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="1"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="872480768"/>
+			<FIELD name="ucPortType" value="13"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="671154176"/>
+			<FIELD name="ucPortType" value="10"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="671219712"/>
+			<FIELD name="ucPortType" value="10"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="1006698496"/>
+			<FIELD name="ucPortType" value="15"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="1006764032"/>
+			<FIELD name="ucPortType" value="15"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="5"/>
+			<FIELD name="dwPortID" value="604045312"/>
+			<FIELD name="ucPortType" value="9"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="65536"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="0"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="131072"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="0"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="196608"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="0"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="262144"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="0"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="67174400"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="3"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="67239936"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="3"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="67305472"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="3"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="3"/>
+			<FIELD name="dwPortID" value="67371008"/>
+			<FIELD name="ucPortType" value="1"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="3"/>
+			<FIELD name="ucEtmIsolate" value="0"/>
+			<FIELD name="ucTtmCon" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_TTMCost" />
+	<DBTABLE name="R_TTMPort" />
+	<DBTABLE name="R_TdmLink">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucVirShelfType" value="1"/>
+			<FIELD name="dwResv1" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_VirBoard">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="wBoardType" value="12289"/>
+			<FIELD name="ucMode" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+			<FIELD name="dwResv5" value="0"/>
+			<FIELD name="dwResv6" value="0"/>
+			<FIELD name="dwResv7" value="0"/>
+			<FIELD name="dwResv8" value="0"/>
+			<FIELD name="dwResv9" value="0"/>
+			<FIELD name="dwResv10" value="0"/>
+			<FIELD name="dwManualOp" value="0"/>
+			<FIELD name="dwStatus" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_VirPort">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="68608"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="134144"/>
+			<FIELD name="ucPortType" value="0"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="199680"/>
+			<FIELD name="ucPortType" value="11"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="0"/>
+			<FIELD name="ucTdmLink" value="1"/>
+			<FIELD name="ucSelect" value="255"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="671154176"/>
+			<FIELD name="ucPortType" value="10"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="dwPortID" value="671219712"/>
+			<FIELD name="ucPortType" value="10"/>
+			<FIELD name="ucBeConfig" value="1"/>
+			<FIELD name="ucIsUse" value="1"/>
+			<FIELD name="ucTdmLink" value="0"/>
+			<FIELD name="ucSelect" value="255"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_VirTU">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="2"/>
+			<FIELD name="ucTrafficUnitNo" value="0"/>
+			<FIELD name="ucMainSlotNo" value="1"/>
+			<FIELD name="ucStandbySlotNo" value="255"/>
+			<FIELD name="ucFunction" value="0"/>
+			<FIELD name="wBoardType" value="12289"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_P2pRteNode">
+		<DBRECORD>
+			<FIELD name="dwIndex" value="1"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134283264,2281766912,2281766912,134283264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="2"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134348800,2281832448,2281832448,134348800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="3"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134414336,2281897984,2281897984,134414336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="4"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134479872,2281963520,2281963520,134479872,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="5"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134545408,2282029056,2282029056,134545408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="6"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134610944,2282094592,2282094592,134610944,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="7"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134676480,2282160128,2282160128,134676480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="8"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134742016,2282225664,2282225664,134742016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="9"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134807552,2282291200,2282291200,134807552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="10"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134873088,2282356736,2282356736,134873088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="11"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="134938624,2282422272,2282422272,134938624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="12"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="135004160,2282487808,2282487808,135004160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="13"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="135069696,2282553344,2282553344,135069696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="14"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="135135232,2282618880,2282618880,135135232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="15"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="135200768,2282684416,2282684416,135200768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="16"/>
+			<FIELD name="ucRouteLevel" value="1"/>
+			<FIELD name="ucCascadeFlag" value="0"/>
+			<FIELD name="ucNodeNum" value="4"/>
+			<FIELD name="aucShelfNo" value="1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucTraffUnitNo" value="4,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="adwPortId" value="135266304,2282749952,2282749952,135266304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucSlotIdx" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="aucChnNo" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ClkGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucGlobalSyncMode" value="0"/>
+			<FIELD name="uc1ppsSyncMode" value="0"/>
+			<FIELD name="ucPtpSyncMode" value="0"/>
+			<FIELD name="ucAirSyncMode" value="0"/>
+			<FIELD name="ucClkSrcSelectSchem" value="0"/>
+			<FIELD name="ucClockSelect" value="2"/>
+			<FIELD name="ucWTRTimer" value="5"/>
+			<FIELD name="ucBitsOut" value="0"/>
+			<FIELD name="ucBitsClkMode" value="1"/>
+			<FIELD name="uc1ppsOutEnable" value="0"/>
+			<FIELD name="ucTodProtocol" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ClkPort" />
+	<DBTABLE name="R_PtpGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucClockType" value="2"/>
+			<FIELD name="ucDomain" value="0"/>
+			<FIELD name="ucDomainDelayMethod" value="1"/>
+			<FIELD name="ucPriority1" value="128"/>
+			<FIELD name="ucPriority2" value="128"/>
+			<FIELD name="ucSlaveOnly" value="0"/>
+			<FIELD name="ucAlgorithm" value="1"/>
+			<FIELD name="ucTwoSteps" value="0"/>
+			<FIELD name="ucClockAccuracy" value="33"/>
+			<FIELD name="ucClockClass" value="248"/>
+			<FIELD name="wPktLostThreshold" value="10"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SsmGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucSsmMode" value="0"/>
+			<FIELD name="ucIsNodeStation" value="0"/>
+			<FIELD name="ucStationId" value="7"/>
+			<FIELD name="ucIdProtect" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PtpPort" />
+	<DBTABLE name="R_EowGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="1"/>
+			<FIELD name="ucEowType" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EowTU">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucTUEowEnable" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EdiInput" />
+	<DBTABLE name="R_EdiOutput" />
+	<DBTABLE name="R_Vdot11" />
+	<DBTABLE name="R_Vdot28" />
+	<DBTABLE name="R_ClkMonPort" />
+	<DBTABLE name="R_P2PDivRte">
+		<DBRECORD>
+			<FIELD name="dwIndex" value="1"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="1"/>
+			<FIELD name="ucDstIndex" value="1"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="1"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="1"/>
+			<FIELD name="ucDstIndex" value="1"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="2"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="2"/>
+			<FIELD name="ucDstIndex" value="2"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="2"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="2"/>
+			<FIELD name="ucDstIndex" value="2"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="3"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="3"/>
+			<FIELD name="ucDstIndex" value="3"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="3"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="3"/>
+			<FIELD name="ucDstIndex" value="3"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="4"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="4"/>
+			<FIELD name="ucDstIndex" value="4"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="4"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="4"/>
+			<FIELD name="ucDstIndex" value="4"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="5"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="5"/>
+			<FIELD name="ucDstIndex" value="5"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="5"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="5"/>
+			<FIELD name="ucDstIndex" value="5"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="6"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="6"/>
+			<FIELD name="ucDstIndex" value="6"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="6"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="6"/>
+			<FIELD name="ucDstIndex" value="6"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="7"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="7"/>
+			<FIELD name="ucDstIndex" value="7"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="7"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="7"/>
+			<FIELD name="ucDstIndex" value="7"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="8"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="8"/>
+			<FIELD name="ucDstIndex" value="8"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="8"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="8"/>
+			<FIELD name="ucDstIndex" value="8"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="9"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="9"/>
+			<FIELD name="ucDstIndex" value="9"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="9"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="9"/>
+			<FIELD name="ucDstIndex" value="9"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="10"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="10"/>
+			<FIELD name="ucDstIndex" value="10"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="10"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="10"/>
+			<FIELD name="ucDstIndex" value="10"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="11"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="11"/>
+			<FIELD name="ucDstIndex" value="11"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="11"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="11"/>
+			<FIELD name="ucDstIndex" value="11"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="12"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="12"/>
+			<FIELD name="ucDstIndex" value="12"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="12"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="12"/>
+			<FIELD name="ucDstIndex" value="12"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="13"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="13"/>
+			<FIELD name="ucDstIndex" value="13"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="13"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="13"/>
+			<FIELD name="ucDstIndex" value="13"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="14"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="14"/>
+			<FIELD name="ucDstIndex" value="14"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="14"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="14"/>
+			<FIELD name="ucDstIndex" value="14"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="15"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="15"/>
+			<FIELD name="ucDstIndex" value="15"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="15"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="15"/>
+			<FIELD name="ucDstIndex" value="15"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="16"/>
+			<FIELD name="dwDivRIndex" value="1"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="4"/>
+			<FIELD name="wBoardType" value="37362"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,20,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,5,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="16"/>
+			<FIELD name="ucDstIndex" value="16"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="dwIndex" value="16"/>
+			<FIELD name="dwDivRIndex" value="2"/>
+			<FIELD name="ucOrigin" value="7"/>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="wBoardType" value="37617"/>
+			<FIELD name="aucSrcMacAddr" value="64,0,193,254,21,16"/>
+			<FIELD name="aucDstMacAddr" value="1,1,95,1,4,0"/>
+			<FIELD name="dwSrcPortNo" value="0"/>
+			<FIELD name="dwDstPortNo" value="0"/>
+			<FIELD name="ucSrcIndex" value="16"/>
+			<FIELD name="ucDstIndex" value="16"/>
+			<FIELD name="ucSrcType" value="2"/>
+			<FIELD name="ucDstType" value="0"/>
+			<FIELD name="ucActiveFlag" value="1"/>
+			<FIELD name="ucDelDstMacEn" value="0"/>
+			<FIELD name="ucAcrossLv" value="1"/>
+			<FIELD name="dwMspGroupId" value="0"/>
+			<FIELD name="dwReserved1" value="0"/>
+			<FIELD name="dwReserved2" value="0"/>
+			<FIELD name="dwReserved3" value="0"/>
+			<FIELD name="dwReserved4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MURoute" />
+	<DBTABLE name="R_LmspGroup" />
+	<DBTABLE name="R_CESPath" />
+	<DBTABLE name="R_CESPortRes" />
+	<DBTABLE name="R_TunnelDMac">
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="1"/>
+			<FIELD name="ucTunnelDMac" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="2"/>
+			<FIELD name="ucTunnelDMac" value="1"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="3"/>
+			<FIELD name="ucTunnelDMac" value="2"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="4"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="5"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="6"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="7"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="8"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="9"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="10"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="11"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucProtocolType" value="12"/>
+			<FIELD name="ucTunnelDMac" value="3"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_TunnelPort" />
+	<DBTABLE name="R_CESAlmThrd">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucMisconnAlarmTrigger" value="5"/>
+			<FIELD name="ucLOFAlarmTrigger" value="5"/>
+			<FIELD name="ucLOFAlarmClear" value="3"/>
+			<FIELD name="ucLateFrameAlarmTrigger" value="5"/>
+			<FIELD name="ucLateFrameAlarmClear" value="3"/>
+			<FIELD name="ucMalformAlarmTrigger" value="5"/>
+			<FIELD name="ucBufferOverrunAlarmTrigger" value="5"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_RefShelf" />
+	<DBTABLE name="R_AutoODUDL">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucAutoDLEnable" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_CPUThrd">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucSlotNo" value="1"/>
+			<FIELD name="ucCpuThreshold" value="80"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MulPort" />
+	<DBTABLE name="R_WorkMod" />
+	<DBTABLE name="R_TtmProtGrp" />
+	<DBTABLE name="R_POEPort" />
+	<DBTABLE name="R_BWLIST" />
+	<DBTABLE name="R_EMSCOMPARA">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="1"/>
+			<FIELD name="dwHeartTrapInterval" value="4294901760"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_QBUFFER" />
+	<DBTABLE name="R_8031Group" />
+	<DBTABLE name="R_CMPortMode" />
+	<DBTABLE name="R_RDIPARAM">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucRdiEnable" value="1"/>
+			<FIELD name="ucRdiDelay" value="0"/>
+			<FIELD name="dwRdiDelayTime" value="0"/>
+			<FIELD name="dwResv1" value="0"/>
+			<FIELD name="dwResv2" value="0"/>
+			<FIELD name="dwResv3" value="0"/>
+			<FIELD name="dwResv4" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_LOGINLOCK">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucRetryLimit" value="5"/>
+			<FIELD name="ucLockPeriod" value="10"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SNMPV3CFG">
+		<DBRECORD>
+			<FIELD name="acUserName" value="zte"/>
+			<FIELD name="ucSecurityLevel" value="3"/>
+			<FIELD name="ucAuthAlgorithm" value="0"/>
+			<FIELD name="ucEncryptAlgorithm" value="0"/>
+			<FIELD name="acAuthPassword" value="780e21c76bd58c0850363cc6e3034d9a"/>
+			<FIELD name="acEncryptPassword" value="780e21c76bd58c0850363cc6e3034d9a"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SECPWD">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="acLmtPassword" value="25d643d08e43eb44"/>
+			<FIELD name="acFtpPassword" value="3b0894b6b0055d55676ee083746fa373"/>
+			<FIELD name="acSshPassword" value="bcd8cf49ea52dd39"/>
+			<FIELD name="acTelnetPassword" value="bcd8cf49ea52dd39"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SECMODE">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucHttpMode" value="0"/>
+			<FIELD name="ucFtpMode" value="0"/>
+			<FIELD name="ucTelnetMode" value="0"/>
+			<FIELD name="ucSnmpVersion" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MAC" />
+	<DBTABLE name="R_RadioTC" />
+	<DBTABLE name="R_ODUTYPE">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucODUType" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_PVlanCar" />
+	<DBTABLE name="R_VolThresh" />
+	<DBTABLE name="R_PISCfg">
+		<DBRECORD>
+			<FIELD name="dwTraffPortID" value="83952896"/>
+			<FIELD name="ucPISEnableFlag" value="0"/>
+			<FIELD name="adwQueuePriority" value="0,0,0,0,1,1,1,1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_LogCfg">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucCfmLtLogEnable" value="1"/>
+			<FIELD name="ucXstpLogEnable" value="1"/>
+			<FIELD name="ucErpsLogEnable" value="1"/>
+			<FIELD name="ucElpsLogEnable" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ErpsGlobal">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="ucVersion" value="2"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ErpsVGroup" />
+	<DBTABLE name="R_ErpsIns" />
+	<DBTABLE name="R_PtpAsym">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTraffUnitNo" value="3"/>
+			<FIELD name="dwPortID" value="65536"/>
+			<FIELD name="ucAsymSign" value="0"/>
+			<FIELD name="dwAsymValue" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTraffUnitNo" value="3"/>
+			<FIELD name="dwPortID" value="131072"/>
+			<FIELD name="ucAsymSign" value="0"/>
+			<FIELD name="dwAsymValue" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTraffUnitNo" value="3"/>
+			<FIELD name="dwPortID" value="196608"/>
+			<FIELD name="ucAsymSign" value="0"/>
+			<FIELD name="dwAsymValue" value="0"/>
+		</DBRECORD>
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTraffUnitNo" value="3"/>
+			<FIELD name="dwPortID" value="262144"/>
+			<FIELD name="ucAsymSign" value="0"/>
+			<FIELD name="dwAsymValue" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_SECURITYID">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucSecurityLinkIDEnable" value="0"/>
+			<FIELD name="acSecurityLinkIDName" value=""/>
+			<FIELD name="dwSyncToRemoteFlag" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ETHCPort" />
+	<DBTABLE name="R_PtpDeComp" />
+	<DBTABLE name="R_Encript" />
+	<DBTABLE name="R_OCUInfo" />
+	<DBTABLE name="R_AirPortTC">
+		<DBRECORD>
+			<FIELD name="dwResourceId" value="83952896"/>
+			<FIELD name="ucTCEnable" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_RADIUS">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="dwServerIp" value="0"/>
+			<FIELD name="wServerPort" value="1812"/>
+			<FIELD name="aucSecretKey" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+			<FIELD name="ucRetry" value="2"/>
+			<FIELD name="ucTimeOut" value="3"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_COMPAT">
+		<DBRECORD>
+			<FIELD name="ucIndexID" value="0"/>
+			<FIELD name="ucRadioCompatEnable" value="1"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_DbsVersion">
+		<DBRECORD>
+			<FIELD name="ucIndexID" value="0"/>
+			<FIELD name="dwVersion" value="431"/>
+			<FIELD name="achSdrName" value="NR8120"/>
+			<FIELD name="wBoardType" value="12292"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_EndNode" />
+	<DBTABLE name="R_CoreNode" />
+	<DBTABLE name="R_SysLog">
+		<DBRECORD>
+			<FIELD name="ucIndex" value="0"/>
+			<FIELD name="ucEnable" value="0"/>
+			<FIELD name="dwServerIp" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_ModCfgType">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucCfgType" value="0"/>
+			<FIELD name="dwSyncToRemoteFlag" value="0"/>
+		</DBRECORD>
+	</DBTABLE>
+	<DBTABLE name="R_MODUTHRES">
+		<DBRECORD>
+			<FIELD name="ucRackNo" value="1"/>
+			<FIELD name="ucShelfNo" value="1"/>
+			<FIELD name="ucTrafficUnitNo" value="5"/>
+			<FIELD name="ucModCfgType" value="0"/>
+			<FIELD name="txModulation" value="0"/>
+			<FIELD name="time" value="24"/>
+		</DBRECORD>
+	</DBTABLE>
+</TABLELIST>
